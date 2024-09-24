@@ -1,0 +1,64 @@
+/* ListaFilmes.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; 
+  padding: 20px; 
+}
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.movie-card {
+  background-color: #fff;
+  border: 1px solid #CCCCCC;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  
+}
+
+.movie-card img {
+  width: auto;
+  max-width: 248px;
+  height: 372px;
+  border-radius: 16px;
+}
+
+.movie-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.movie-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.movie-card-rating{
+  width: 65px;
+  background-color: #8D88ED; 
+  padding: 5px 10px;
+  border-radius: 16px; 
+  color: #ffffff; 
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Definindo um contêiner centralizado com largura máxima de 1440px */
+.container {
+  max-width: 1440px;   /* Define a largura máxima */
+  margin: 0 auto;      /* Centraliza o conteúdo horizontalmente */
+  padding: 0 20px;     /* Adiciona um pouco de espaçamento nas laterais */
+  box-sizing: border-box; /* Inclui padding na largura total */
+}

@@ -1,0 +1,18 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .header-left {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-image {
+    position: relative;
+    width: 176px;
+    top: 0;
+    left: 80px;
+  }
+  
